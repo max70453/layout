@@ -1,0 +1,63 @@
+.header
+  height: 628px;
+  margin-bottom: 123px;
+  background-color: rgba(25, 21, 43, 0.7);
+  position: relative; 
+  &::before
+    content: '';
+    display: block;
+    background: url('images/share/Ellipse.png') no-repeat;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    bottom: 90px;
+    left: 190px;
+  &::after
+    content: '';
+    background: url('images/share/Rectangle.png') no-repeat;
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 75px;
+    right: 214px;
+  &__content
+    display: flex;
+    align-items: center;
+    padding-top: 97px;
+    padding-left: 97px;
+    padding-right: 112px;
+  &__logo
+    width: 47px;
+    height: 55px;
+    margin-right: 234px;
+  &__logo-img
+    width: 100%;
+  &__menu
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 36px;
+    width: 533px;
+  &__menu-link
+    padding: 0 15px;
+    text-decoration: none;
+    color: #fff;
+  &__btn
+    margin-left: auto;
+    width: 178px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #ff3b69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 28px;
+  &__btn-link
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+  &__menu-btn
+    width: 35px;
+    height: 20px;
+    background: url('images/share/Grid.png');
+    
